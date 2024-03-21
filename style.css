@@ -1,0 +1,89 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(175, 149, 119);
+}
+#left{
+    width: 20%;
+    float: left;
+    border-right: 1px solid black;
+    height: 90vh;
+    padding-top: 5vh;
+    overflow-y: scroll;
+}
+#right{
+    width:80%;
+    margin-left: 20%;
+    padding-top: 20px;
+}
+.film{
+    height: 100px;
+    width:99%;
+}
+#dodaj{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(128, 163, 197);
+}
+#dodaj p{
+    margin-top: 1vh;
+}
+.siedzenie {
+    padding:5px;
+    border: 1px solid black;
+}
+.zajente{
+    background-color: firebrick;
+}
+#zarezerwoj {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 80%;
+    height: 5vh;
+    background-color: rgb(128, 163, 197);
+}
+#zarezerwoj p{
+    margin-top: 1vh;
+}
+input{
+    background-color: rgb(182, 182, 182);
+}
+.click{
+    background-color: green;
+}
+.dodaj{
+    position: absolute;
+    border-radius: 30px;
+    left: 25%;
+    bottom: 25%;
+    width: 50%;
+    height: 50%;
+    background-color:rgb(128, 163, 197);
+}
+.dodaj h1{
+    margin-top:7%;
+}
+.nwm{
+    margin:2vh;
+}
+#right h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#x{
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-top: 4px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+}
